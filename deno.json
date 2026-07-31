@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "@webview/webview": "jsr:@webview/webview@^0.9.0"
+  },
+  "compilerOptions": {
+    "lib": ["deno.window", "deno.ns"]
+  },
+  "tasks": {
+    "start": "deno run --allow-ffi --allow-net --allow-read main.ts"
+  }
+}
